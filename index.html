@@ -1,0 +1,361 @@
+<html>
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.2">
+
+    <title>Math Sites</title>
+    <link rel="icon" type="image/png" href="https://math-papers.github.io/sites/icon-128.png">
+
+    <meta property="og:title" content="Math Sites">
+    <meta property="og:url" content="https://math-papers.github.io/sites/">
+    <meta property="og:image" content="https://math-papers.github.io/sites/icon-128.png">
+    <meta property="og:description" content="Some useful links.">
+
+    <style>
+        #blink {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2d38be;
+            transition: 0.5s;
+        }
+    </style>
+
+    <style>
+        /* unvisited link */
+        a:link {
+            color: #07519a;
+        }
+
+        /* visited link */
+        a:visited {
+            color: red;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: hotpink;
+        }
+
+        /* selected link */
+        a:active {
+            color: blue;
+        }
+    </style>
+
+    <style type="text/css">
+
+
+        a.NoUrl {
+            color: gray;
+        }
+
+        a {
+            color: #07519a;
+            text-decoration: none;
+        }
+
+    </style>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .left {
+            /* background-color:#2196F3; */
+            padding: 20px;
+            float: left;
+            width: 30%; /* The width is 20%, by default */
+        }
+
+        .main {
+            /* background-color:#f1f1f1; */
+            padding: 20px;
+            float: left;
+            width: 40%; /* The width is 60%, by default */
+        }
+
+        .right {
+            /* background-color:#4CAF50;*/
+            padding: 20px;
+            float: left;
+            width: 30%; /* The width is 20%, by default */
+        }
+
+        /* Use a media query to add a break point at 800px: */
+        @media screen and (max-width: 200px) {
+            .left, .main, .right {
+                width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+            }
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://math-examples.github.io/web/math-examples.css">
+
+    <script src="https://math-examples.github.io/web/math-examples.js"></script>
+
+</head>
+
+<body>
+
+<p>You are visitor number <img width="20" height="20" src="http://stuff.mit.edu/cgi/counter/math-papers.github.io/sites" alt="several">. Welcome!😁😁
+</p>
+<p id="displayTime"></p>
+
+<p id="blink">
+    ❤️</p>
+
+<script type="text/javascript">
+    var blink = document.getElementById('blink');
+    setInterval(function () {
+        blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+    }, 1500);
+</script>
+
+<div>
+
+    <button class="button" id="resizeText1" onclick="resizeText(1)">字体➕️</button>
+
+    <button class="button" id="resizeText2" onclick="resizeText(-1)">字体➖️</button>
+
+</div>
+
+<div class="left">
+    <h2><a href="#Videos3" class="current">Courses</a></h2>
+</div>
+
+<div class="main">
+    <h2><a href="#Videos33" class="current">Classes</a></h2>
+</div>
+
+<div class="right">
+    <h2><a href="#Links" class="current">Others</a></h2>
+</div>
+
+<h3 id="Videos3" align="center">Courses</h3>
+
+<ol>
+    <li>
+        <a href="https://ocw.mit.edu/">MIT OpenCourseWare</a>
+    </li>
+    <li>
+        <a href="https://videolectures.net/">Videolectures</a>
+    </li>
+    <li>
+        <a href="https://www.coursera.org/courses">Coursera</a>
+    </li>
+    <li>
+        <a href="https://www.udacity.com/">Udacity</a>
+    </li>
+    <li>
+        <a href="https://www.edx.org/">edX</a>
+    </li>
+    <li>
+        <a href="https://www.fast.ai/">Fast.ai</a>
+    </li>
+    <li>
+        <a href="https://www.khanacademy.org/math/">Khan Academy</a>
+    </li>
+    <li>
+        <a href="https://www.ted.com/">TED</a>
+    </li>
+    
+</ol>
+
+<h3 id="Videos33" align="center">Classes</h3>
+
+<ol>
+<li>
+        <a href="https://math-papers.github.io/CS224N">CS224N</a>
+    Natural Language Processing with Deep Learning
+</li>
+<li>
+        <a href="https://web.mit.edu/dimitrib/www/RLbook.html">Reinforcement Learning and Optimal Control </a>
+    (Dimitri P. Bertsekas)
+</li>
+    <li>
+        <a href="https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-spring18/index.html">Reinforcement Learning
+            (CS885-2018)</a>
+        <a href="https://github.com/math-papers/CS885-2018">github</a>
+    </li>
+    <li>
+        <a href="https://cs.uwaterloo.ca/~ppoupart/teaching/cs480-spring19/">Introduction to Machine Learning
+            (CS480-680-2019)</a>
+        <a href="https://github.com/math-papers/CS480-680-2019">github</a>
+    </li>
+    <li>
+        <a href="https://github.com/math-papers/LinearAlgebra1806-videos">Linear Algebra (1806)</a>
+    </li>
+</ol>
+
+<h3 id="Videos2" align="center">People</h3>
+
+<ol>
+<li>
+       <a href="https://math.mit.edu/~gs/">Gilbert Strang</a> 
+</li>
+<li>
+       <a href="https://www.mit.edu/~dimitrib/home.html">Dimitri Bertsekas</a> 
+</li>
+<li>
+       <a href="http://www.incompleteideas.net/">Richard S. Sutton</a> 
+</li>
+<li>
+       <a href="https://people.cs.umass.edu/~barto/">Andrew G. Barto</a> 
+</li>
+<li>
+       <a href="https://www.mit.edu/~dbertsim/papers.html">Dimitris Bertsimas</a> 
+</li>
+<li>
+       <a href="https://nlp.stanford.edu/~manning/">Chris Manning</a> 
+</li>
+<li>
+       <a href="https://cs.uwaterloo.ca/~ppoupart/">Pascal Poupart</a> 
+</li>
+<li>
+       <a href="https://www.cs.ubc.ca/~murphyk/mypapers.html">Kevin Murphy</a> 
+</li>
+<li>
+       <a href="https://www.upf.edu/web/xavier-serra">Xavier Serra</a> 
+</li>
+<li>
+       <a href="https://www.cs.toronto.edu/~hinton/">Geoffrey Hinton</a> 
+</li>
+<li>
+       <a href="https://yoshuabengio.org/">Yoshua Bengio</a> 
+</li>
+<li>
+       <a href="https://www.andrewng.org/">Andrew Ng</a> 
+</li>
+<li>
+       <a href="https://dougalmaclaurin.com">Dougal Maclaurin</a> 
+</li>
+<li>
+       <a href="https://www.cs.cmu.edu/~deyum/">Deyu Meng</a> 
+</li>
+<li>
+       <a href="https://www.cs.uic.edu/~liub/">Bing Liu</a> 
+</li>
+<li>
+       <a href="https://vnpeng.net/">Nanyun (Violet) Peng</a> 
+</li>
+<li>
+       <a href="https://cs.stanford.edu/~diyiy/">Diyi Yang</a> 
+</li>
+<li>
+       <a href="https://cs.stanford.edu/~shaoyj/">Yijia Shao</a> 
+</li>
+<li>
+       <a href="https://divyanshgarg.com/">Div Garg</a> 
+</li>
+<li>
+       <a href="https://shljessie.github.io/">Seonghee Lee</a> 
+</li>
+<li>
+       <a href="https://styfeng.github.io/">Steven Feng</a> 
+</li>
+
+    <li>
+       <a href="https://shuangli01.github.io/">Shuang Li, Decision Making</a> 
+    </li>
+    <li>
+       <a href="https://tminka.github.io/">Bayesian Inference</a> 
+    </li>
+</ol>
+    
+<h3 id="Links" align="center">Others</h3>
+
+<ol>
+    <li>
+        <a href="https://love-math.github.io/book.html">Books</a>
+    </li>
+    <li>
+        <a href="https://arxiv.org/">ArXiv.org</a>
+    </li>
+    <li>
+        <a href="https://ar5iv.labs.arxiv.org/">arXiv.org HTML5</a>
+    </li>
+    <li>
+        <a href="https://www.researchgate.net/">ResearchGate</a>
+    </li>
+    <li>
+        <a href="https://www.computer.org/">IEEE Computer Society</a>
+    </li>
+    <li>
+        <a href="https://stackoverflow.com/">Stack Overflow</a>
+    </li>
+    <li>
+        <a href="https://github.com/">GitHub</a>
+    </li>
+    <li>
+        <a href="https://www.kaggle.com/">Kaggle</a>
+    </li>
+    <li>
+        <a href="https://colab.research.google.com/">Colab</a>
+    </li>
+    <li>
+        <a href="https://mathsolver.microsoft.com/en">Math Solver</a>
+    </li>
+    <li>
+        <a href="https://openai.com/">OpenAI</a>
+    </li>
+    <li>
+        <a href="https://deepmind.google/">Google DeepMind</a>
+    </li>
+    <li>
+        <a href="https://dev.to/">dev</a>
+    </li>
+    <li>
+        <a href="https://vdoc.pub/">vdoc.pub</a>
+    </li>
+    <li>
+        <a class="NoUrl" href="">NeurIPS (Conference on Neural Information Processing Systems)</a>
+    </li>
+    <li>
+        <a class="NoUrl" href="">ICLR (International Conference on Learning Representations)</a>
+    </li>
+    <li>
+        <a class="NoUrl" href="">AI Expo</a>
+    </li>
+    <li>
+        <a class="NoUrl" href="">CVPR (Conference on Computer Vision and Pattern Recognition)</a>
+    </li>
+    <li>
+        <a class="NoUrl" href="">AAAI Conference on Artificial Intelligence</a>
+    </li>
+    <li>
+        <a href="https://aclanthology.org/www.mt-archive.info/">Machine Translation Archive</a>
+    </li>
+    <li>
+        <a href="https://math-examples.github.io/github-api/?user=math-group&repo=notes">notes</a>
+    </li>
+    <li>
+        <a href="https://archive.online-convert.com/convert/pdf-to-zip">pdf to zip</a>
+    </li>
+    <li>
+        <a href="https://products.aspose.app/pdf/hash-generator/md5">pdf md5</a>
+    </li>
+    <li>
+        <a href="https://convertio.co/svg-pdf/">svg to pdf</a>
+    </li>
+    <li>
+        <a href="https://www.sejda.com/deskew-pdf">straighten pdf</a>
+    </li>
+    <li>
+        <a href="https://tools.pdf24.org/en/ocr-pdf">ocr pdf</a>
+    </li>
+    <li>
+        <a href="https://docupub.com/pdfresize/">resize pdf</a>
+    </li>
+</ol>
+
+<script>
+
+</script>
+
+</body>
+
+</html>
